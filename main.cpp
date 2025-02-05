@@ -29,7 +29,7 @@ int main() {
         cout << "Radius: \n";
         cin >> radius;
         cout << "PERIMITER: " << fixed << setprecision(1) << 2 * PI * radius << "\n";
-        cout << "AREA: " << fixed << setprecision(1) << PI * pow(radius,2);}
+        cout << "AREA: " << fixed << setprecision(1) << PI * pow(radius,2) << "\n";}
 
     else if (letter == 'R' || letter == 'r') {
         cout << "Length: \n";
